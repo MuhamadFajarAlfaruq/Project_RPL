@@ -7,7 +7,7 @@
             <dic class="card shadow ">
                 <div class="card-body">
                     <div class="card-body">
-                        <form action="{{route('masyarakat.login')}}" method="get">
+                        <form action="{{route('masyarakat.login')}}" method="POST">
                             @csrf
                             <h3 class="text-center">Aplikasi Pengaduan Masyarakat</h3>
                             <div class="form-group">
